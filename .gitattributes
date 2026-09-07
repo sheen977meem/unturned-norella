@@ -1,0 +1,12 @@
+# Exclude build artifacts
+Cargo.lock linguist-generated
+
+yarn.lock linguist-generated
+*.jpeg binary  
+*.min.js linguist-generated
+*.tsx linguist-detectable
+
+*.json linguist-detectable=false
+
+*.htm linguist-vendored
+*.min.css linguist-generated
